@@ -1,0 +1,24 @@
+.head, .small {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.content {
+  background-color: grey;
+}
+
+.head {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.small {
+  font-size: 15px;
+}
+
+.span1 {
+  display: inline-block;
+  background-color: red;
+  width: 1300px;
+}
+/*# sourceMappingURL=style2.css.map */
