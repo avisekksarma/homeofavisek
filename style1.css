@@ -1,9 +1,32 @@
 td
 {
-color :orange;
+color : black;
 }
 table,td,th{
   border:1px solid black;
   border-collapse: collapse;
-  width:30%;
+  width:300px;
 }
+ th::before{
+    content:'=>';
+ }
+
+@media (min-width: 800px) {
+  body {
+      background-color:rgb(192,192,192);
+  }
+}
+
+@media (min-width: 800px) {
+  table {
+      width:50%;
+  }
+}
+
+@media (max-width: 799px) {
+  body,table{
+      background-color:rgb(255,218,185);
+      width:100%;
+  }
+}
+

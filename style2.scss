@@ -1,22 +1,42 @@
+$padding : 15px;
+
 %layout {
     font-family: "Comic Sans MS", cursive, sans-serif;
-    
+    padding-top:10px;
 }
-.content
+#content
 {
     background-color:grey
 }
+
+.product
+{
+    h3
+    {
+        opacity: 1;
+        font-style:italic;
+        padding-left:$padding;
+    }
+
+    p
+    {
+        font-size: 12px;
+        padding-left:$padding;
+
+    }
+}
+
 .head{
     @extend %layout;
     font-size: 35px;
     text-align: center;
-    padding-top:10px;
+    
 }
 
 .small{
     @extend %layout;
     font-size:15px;
-
+    
 }
 
 .span1 
